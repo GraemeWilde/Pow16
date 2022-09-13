@@ -1,13 +1,20 @@
 //!
-//!    Written by Graeme Wilde
+//! Written by Graeme Wilde
 //!
-//!    Requires the big num-bigint, num-traits, and ctrlc crate dependencies
-//!    The following should be at the end of the Cargo.toml
+//! Written in Rust language.
+//! Searches for the first power of 16 greater than 16^4 that doesn't have a digit 1, 2, 4, or 8 when written in base 10.
 //!
-//!    [dependencies]
-//!        num-bigint = "0.4.3"
-//!        num-traits = "0.2.15"
-//!        ctrlc = { version = "3.0", features = ["termination"] }
+//!
+//!
+//! Available at https://github.com/GraemeWilde/Pow16
+//!
+//! Requires the big num-bigint, num-traits, and ctrlc crate dependencies
+//! The following should be at the end of the Cargo.toml
+//!
+//! [dependencies]
+//!     num-bigint = "0.4.3"
+//!     num-traits = "0.2.15"
+//!     ctrlc = { version = "3.0", features = ["termination"] }
 //!
 
 
